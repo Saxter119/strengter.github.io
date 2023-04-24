@@ -1,0 +1,225 @@
+nav {
+    list-style: none;
+    width: 100%;
+    height: 14%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    background-color: gray;
+  }
+  
+  .headerimg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 15%;
+  }
+  
+  .Frase {
+    color: white;
+    font-size: 40px;
+    background-color: gray;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  header nav label {
+    margin-left: 5%;
+    line-height: 100px;
+    color: white;
+    font-size: 3.5vw;
+  }
+  .Row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul {
+    float: right;
+    margin-right: 50px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 120px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.3vw;
+    margin-right: 23px;
+  }
+  
+  .Centrado {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  
+  
+  .Centrado h3 {
+    color: white;
+    font-size: 30px;
+    background-color: tomato;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .Informacion {
+    color: white;
+    font-size: 22px;
+  }
+  
+  .clase {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 40px;
+    transition: all 1s;
+    width: 700px;
+  }
+  .Info-Entrenador{
+    float: right;
+    width: 300px;
+  }
+  .claseLeft {
+    transform: translate(90%);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 40px;
+    transition: all 1s;
+    width: 700px;
+  } 
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    margin: 10px;
+    margin-top: 130px;
+
+
+  }
+  
+  .BoxImageA {
+    flex: content;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .BoxImageB {
+    flex: content;
+    width: 300px;
+    height: 420px;
+    border-radius: 10px;
+  }
+  
+  .BoxImageC {
+    width: 190px;
+    height: 170px;
+  }
+  
+  header {
+    left: 0;
+    top: 0px;
+    position: absolute;
+  }
+  
+  .clase:hover {
+    transform: translate(-30px);
+    box-shadow: 35px 35px 5px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  
+  .claseLeft:hover  {
+    transform: translate(88%);
+    box-shadow: 35px 35px 5px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  
+  .Titulo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.9vw;
+    text-align: center;
+  }
+
+  
+  #SubTitulo {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.6vw;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .headerimg {
+      height: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    #SubTitulo {
+      top: 35%;
+    }
+  
+    .Titulo {
+      top: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .Row {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    header nav label {
+      margin-left: 1%;
+      font-size: 2.5vw;
+    }
+  
+    nav ul li a {
+      float: none;
+      font-size: 2.5vw;
+      align-items: center;
+      align-content: center;
+    }
+  }
+  
+  .btn-summary {
+    background-color: steelblue;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+  
+  }
+  
+  /* @media screen and (max-width: 349px) {
+    header nav label {
+      margin-left: 1%;
+      font-size: 2.5vw;
+    }
+    nav ul li a {
+      font-size: 2.5vw;
+      margin-right:0;
+  
+    } */
